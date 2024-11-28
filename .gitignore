@@ -1,0 +1,43 @@
+# Node modules (React frontend)
+ui-quotes/node_modules/
+ui-quotes/npm-debug.log
+ui-quotes/yarn-error.log
+
+# Build directories (React frontend)
+ui-quotes/build/
+ui-quotes/dist/
+
+# Django Python/Django specific
+quotes/quotes/*.pyc
+quotes/quotes/*.pyo
+quotes/quotes/*.pyd
+quotes/quotes/__pycache__/
+quotes/db.sqlite3
+quotes/media/
+quotes/*.log
+
+# Django migrations
+quotes/quotes/*/migrations/*
+
+# Virtual environment folder
+env/
+quotes/env/
+quotes/venv/
+quotes/.venv/
+
+# IDE specific files
+quotes/.vscode/
+quotes/.idea/
+
+# OS-specific files
+.DS_Store
+quotes/.DS_Store
+quotes/Thumbs.db
+
+# React development server logs
+ui-quotes/npm-debug.log*
+ui-quotes/yarn-debug.log*
+ui-quotes/yarn-error.log*
+
+# dotenv files (environment variables)
+quotes/.env
